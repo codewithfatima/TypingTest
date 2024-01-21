@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="StyleSheet.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <title>Typing Test</title>
+</head>
+
+<body>
+  <h1>Typing Test..</h1>
+  <div class="container">
+   <div class="starts" id="starts">
+    <p>Time: <span id="timer">0s</span></p>
+    <p>Mistakes: <span id="mistakes">0s</span></p>
+   </div>
+
+   <div id="quote" onmousedown="return false" onselectstart="return false"> 
+   </div>
+
+   <div class="textarea">
+     <textarea name="" id="quote-input" cols="" rows="3" placeholder="Start Typing here......"></textarea>
+     <button id="start-test" onclick="startTest()">Stop Test</button> 
+     <button id="stop-test"  onclick="displayResult()">Stop Test</button> 
+     <div class="result">
+      <h3>Result</h3>
+      <div class="wrapper">
+        <p>Accurancy: <span id="accurancy"></span></p>
+        <p>Speed:<span id="wpm"></span></p>
+      </div>  
+    </div>
+</div>
+</div>
+   
+<script src="java.js"></script>
+</body>
+</html>    

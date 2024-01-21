@@ -1,0 +1,89 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:'Poppins';
+    box-sizing:border-box;
+}
+
+body{
+  background-color:lightgrey;
+}
+
+h1{
+    margin-left: 45%;
+    margin-top: 5%;
+
+}
+
+.container{
+    width: 80vmin;
+    background-color: white;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    padding: 50px 30px;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top: 60%;
+    left: 50%;
+    border-radius: 10px;
+}
+
+.starts{
+    text-align: right;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.starts span{
+    font-weight: 600;
+}
+
+#quote{
+    text-align: justify;
+    margin: 50px 0 30px 0;
+
+}
+
+textarea{
+    width: 100%;
+    resize: none;
+    border-radius: 5px;
+    padding: 10px 5px;
+    font-size: 16px;
+}
+
+button{
+    float: right;
+    margin-top: 20px;
+    background-color: gray;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.result{
+    margin-top: 40px;
+    display: none;
+}
+
+.result h3{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.wrapper span{
+    font-weight: 600;
+}
+
+.success{
+    color: #44b267;
+}
+.fail{
+    color: red;
+}
